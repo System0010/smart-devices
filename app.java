@@ -5,6 +5,13 @@ public class app{
  
     String description = smartPhone.toString();
     System.out.println(description);
+
+    SmartDevices smartWatch = new SmartWatch(true, "b221", 4200d, "iwatch2", "disp455", "b221", 4200d, "blue-cream", 2.5d, false, 1093273, "Appple", "IOA3");
+
+    description = smartWatch.toString();
+    System.out.println("*****\n\n" + description);
+
+
   }
 
   
